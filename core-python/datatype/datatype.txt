@@ -1,0 +1,13 @@
+# data type or object type
+# -- Numbers :123 ,1.23, 3+4j,0b343,Decimal(), fraction() 
+# -- String : "span", "bob", 
+# -- List : [1,2,3['a' ,'b' ],] is like a array , index-0
+# -- Tuple: (1,"span" 5 'u ) index-0 
+# -- dic: {'food': 'span' , "name": "jhala" } - key-values-pairs index-1 to n
+# -- set : set('abc'), { 'a' , 'ab' }
+# -- file : open('file.txt')
+# -- boolean : true ,false
+# -- None : None
+# -- funt , modules, classes,
+# -- advance: decorators, generatores, iterators, Metaprograming
+
