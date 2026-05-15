@@ -20,3 +20,24 @@ print(my_tesla.name)
 print(my_tesla.model)
 print(my_tesla.battery_size)
 print(my_tesla.fullName())
+
+
+# multiple inheritence
+class A:
+    def method_a(self):
+        print("Method A from class A")
+
+class B:
+    def method_b(self):
+        print("Method B from class B")
+
+class C(A, B):
+    
+    def method_c(self):
+        print("Method C from class C")
+
+
+my_obj = C()
+print(isinstance(my_obj, A)) #use isinstance() to check if my_obj is an instance of class A, B, or C
+print(isinstance(my_obj, B))
+print(isinstance(my_obj, C))
