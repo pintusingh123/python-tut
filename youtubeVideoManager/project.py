@@ -54,18 +54,18 @@ def UpdateVideo(videos):
  listAllVideos(videos)
  input_index = input("Enter the video number to update: ")
 
-if 1 <= input_index <= len(videos):
+ if 1 <= input_index <= len(videos):
     title = input("Enter the new video name: ")
     time = input("Enter the new video time: ")
     videos[input_index - 1] = {
         "title": title,
         "time": time
     }
-else:
+ else:
    print("Invalid video number.")
 
 
-save_data(videos)
+ save_data(videos)
 
 
 def deleteVideo(videos):
@@ -73,6 +73,7 @@ def deleteVideo(videos):
     input_index = int(input("Enter the video number to delete: "))
     if 1 <= input_index <= len(videos):
         del videos[input_index - 1]
+         
         save_data(videos)
     else:
         print("Invalid video number.")
