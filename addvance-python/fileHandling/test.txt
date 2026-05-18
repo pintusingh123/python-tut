@@ -1,0 +1,3 @@
+hello this is a test file for write mode line one 
+hello this is a test file for write mode line two 
+hello this is a test file for append mode line one 

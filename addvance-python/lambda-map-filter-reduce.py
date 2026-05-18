@@ -8,7 +8,7 @@ print(add(5, 3))  # Output: 8
 # Example with map()
 numbers = [1, 2, 3, 4, 5]
 multi = lambda x: x ** 2
-squared = list(map(multi, numbers))
+squared = list(  map(multi, numbers))
 print(squared)  # Output: [1, 4, 9, 16, 25]
 
 # Example with filter()
@@ -16,3 +16,10 @@ numb = [1, 2, 3, 4, 5]
 even = lambda x: x % 2 == 0
 even_numbers = list(filter(even, numb))
 print(even_numbers)  # Output: [2, 4]
+
+# Example with reduce()
+from functools import reduce
+numbers = [1, 2, 3, 4, 5]
+product = lambda x, y: x * y
+result = reduce(product, numbers)
+print(result)  # Output: 120
