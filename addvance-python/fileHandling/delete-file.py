@@ -1,5 +1,5 @@
 import os
-import shutil
+# import shutil
 def _file_path():
   return os.path.join(os.path.dirname(__file__), "app.txt")
 
